@@ -59,7 +59,7 @@ function getRuneImagesFromString(spaceDelimitedRunes){
 
   let runes = spaceDelimitedRunes.split(" ");
   imgs = runes.map(r => {
-    return <img src={`/images/Rune${r}.gif`} alt="Rune"></img>
+    return <img src={`./images/Rune${r}.gif`} alt="Rune"></img>
   });
 
   return (
