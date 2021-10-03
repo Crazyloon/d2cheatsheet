@@ -59,7 +59,7 @@ function getRuneImagesFromString(spaceDelimitedRunes){
 
   let runes = spaceDelimitedRunes.split(" ");
   imgs = runes.map(r => {
-    return <img src={`https://github.com/Crazyloon/d2cheatsheet/blob/main/public/Images//Rune${r}.gif?raw=true`} alt="Rune"></img>
+    return <img src={`https://raw.githubusercontent.com/Crazyloon/d2cheatsheet/main/public/Images/Rune${r}.gif`} alt="Rune"></img>
   });
 
   return (

@@ -16,7 +16,7 @@ const Navigation = ({currentPage, onSetPage}) => {
         <ul className={"nav-list" + (menuOpen ? " responsive" : "")}>
           <li className={(currentPage === 0 ? "active " : "") + "nav-item-brand"} onClick={() => setPage(0)}>
             <a href="#Home" className="nav-brand-name">
-              <img src="https://github.com/Crazyloon/d2cheatsheet/blob/main/public/Images/Logo.jpg?raw=true" alt="Diablo 2 Resurrected Logo" />
+              <img src="https://raw.githubusercontent.com/Crazyloon/d2cheatsheet/main/public/Images/Logo.jpg" alt="Diablo 2 Resurrected Logo" />
             </a>
           </li>
           <li className={(currentPage === 0 ? "active " : "") + "nav-item"} onClick={() => setPage(0)}>
